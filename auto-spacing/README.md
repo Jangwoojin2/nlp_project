@@ -6,6 +6,7 @@ this is for only baemin review due to the vocaburary distribution of training da
 it may not work on other text data.
 
 #usage
+```python
 import pycrfsuite_spacing
 from pycrfsuite_spacing import CharacterFeatureTransformer
 from pycrfsuite_spacing import TemplateGenerator
@@ -29,6 +30,7 @@ correct = PyCRFSuiteSpacing(
 model_path = './review_space.crfsuite'  #pre-trained model using review data
 correct = PyCRFSuiteSpacing(to_feature)
 correct.load_tagger(model_path)
+```
 
 #result example
 correct('너무빡쳐서쓰는데요머리카락나왔어요더러워죽겠네')
