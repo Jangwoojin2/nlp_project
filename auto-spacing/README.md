@@ -5,7 +5,7 @@ This is about auto-sapcing model based on CRF(Conditional Random Field)
 this is for only baemin review due to the vocaburary distribution of training data.
 it may not work on other text data.
 
-#usage
+# usage
 ```python
 import pycrfsuite_spacing
 from pycrfsuite_spacing import CharacterFeatureTransformer
@@ -32,6 +32,7 @@ correct = PyCRFSuiteSpacing(to_feature)
 correct.load_tagger(model_path)
 ```
 
-#result example
+# result example
 correct('너무빡쳐서쓰는데요머리카락나왔어요더러워죽겠네')
+
 output: '너무 빡쳐서 쓰는데요 머리카락 나왔어요 더러워 죽겠네'
