@@ -16,3 +16,4 @@ skipgram_model = fasttext.cbow(
     thread = 6          # num of threads
 )
 
+
