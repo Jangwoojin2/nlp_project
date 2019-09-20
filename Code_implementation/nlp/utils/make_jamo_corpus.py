@@ -30,4 +30,5 @@ with open("./req_jamo_corpus.txt",'w') as wf:
         jamo = jamo_sentence(x)
         # print(jamo)
         wf.write(jamo+'\n')
-                                                                                           
+
+            
